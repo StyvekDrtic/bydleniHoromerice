@@ -1,0 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Bytový dům Na návsi
+description: Bydlete ve vlastním kousek za Prahou! Velmi příznivé ceny, Praha-východ u Říčan, V blízkosti zástavby rodinných domů, NPR Voděradské bučiny
+keywords: Svojetice, bydlení svojetice, byty, Na Návsi, lékař svojetice, doktor svojetice, bydlení, simekostav, budova
+author: palmmedia.co
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://bydleniSvojetice.cz" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

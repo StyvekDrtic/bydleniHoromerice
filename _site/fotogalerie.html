@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+  <!--
+
+Ahoj!
+tenhle web vytvořila skupina PalmMedia.co
+
+        __ _.--..--._ _
+     .-' _/   _/\_   \_'-.
+    |__ /   _/\__/\_   \__|
+       |___/\_\__/  \___|
+              \__/
+              \__/
+               \__/
+                \__/
+             ____\__/___
+       . - '             ' -.
+      /                      \
+~~~~~~~  ~~~~~ ~~~~~  ~~~ ~~~  ~~~~~
+  ~~~   ~~~~~   ~!~~   ~~ ~  ~ ~ ~pjb
+
+líbí se ti? chtěl by si podobný? koukni na naše stránky
+
+-->
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bytový dům Na návsi</title>
+  <meta name="description" content="Bydlete ve vlastním kousek za Prahou! Velmi příznivé ceny, Praha-východ u Říčan, V blízkosti zástavby rodinných domů, NPR Voděradské bučiny">
+  <meta name="keywords" content="Svojetice, bydlení svojetice, byty, Na Návsi, lékař svojetice, doktor svojetice, bydlení, simekostav, budova">
+  <meta name="author" content="palmmedia.co">
+  <meta name="language" content="cs">
+
+  <link rel="stylesheet" href="assets/css/main.css?v=13">
+  <link rel="stylesheet" href="assets/js/photoswipe/photoswipe.css">
+  <link rel="stylesheet" href="assets/js/photoswipe/default-skin.css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+    <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '142099519987258');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=142099519987258&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+</head>
+
+
+  <body>
+
+    <header>
+  <div class="horniHeader">
+    <a href="/">
+      <img class="logo" src="assets/img/logo.png" alt="logo">
+    </a>
+    <div class="rychlyKontakty">
+      <div class="napisteNam">
+        <span>Napište nám</span>
+        <a href="mailto:simekostav@simekostav.cz">simekostav@simekostav.cz</a>
+      </div>
+      <div class="rozdelovak"></div>
+      <div class="zavolejteNam">
+        <span>Zavolejte nám</span>
+        <a href="tel:+420602777214">+420 602 777 214</a>
+      </div>
+    </div>
+    <div class="rychlyKontakty2">
+      <a href="tel:+420602777214"><i class="fa fa-phone" aria-hidden="true"></i></a>
+      <div class="rozdelovak"></div>
+      <a href="mailto:simekostav@simekostav.cz"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="dolniHeader">
+    <nav>
+      <ul>
+        <li >
+          <a href="/">Domů</a>
+        </li>
+        <li >
+          <a href="/byty">Byty</a>
+        </li>
+        <li  class="active">
+          <a href="/fotogalerie">Fotogalerie</a>
+        </li>
+        <li >
+          <a href="/ceny">Ceny</a>
+        </li>
+        <li >
+          <a href="/kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+      <div class="wraper">
+        <section class="vrstva fotogalerie">
+  <h1>Fotogalerie</h1>
+</section>
+<div class="obrazky">
+  <div class="picture">
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/jesteDodelavka.jpg" itemprop="contentUrl" data-size="1920x1186" data-index="0">
+        <img src="assets/img/galerie/min/jesteDodelavka.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/druhyFoceni1.jpg" itemprop="contentUrl" data-size="2500x1874" data-index="0">
+        <img src="assets/img/galerie/min/druhyFoceni1.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/druhyFoceni3.jpg" itemprop="contentUrl" data-size="2500x1874" data-index="0">
+        <img src="assets/img/galerie/min/druhyFoceni3.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/druhyFoceni8.jpg" itemprop="contentUrl" data-size="2500x1874" data-index="0">
+        <img src="assets/img/galerie/min/druhyFoceni8.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/druhyFoceni14.jpg" itemprop="contentUrl" data-size="2500x1874" data-index="0">
+        <img src="assets/img/galerie/min/druhyFoceni14.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron2.jpg" itemprop="contentUrl" data-size="2500x1405" data-index="0">
+        <img src="assets/img/galerie/min/dron2.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron4.jpg" itemprop="contentUrl" data-size="2500x1405" data-index="0">
+        <img src="assets/img/galerie/min/dron4.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron5.jpg" itemprop="contentUrl" data-size="2500x1405" data-index="0">
+        <img src="assets/img/galerie/min/dron5.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto1.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto1.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto2.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto2.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto3.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto3.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto4.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto4.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto5.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto5.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto6.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto6.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto7.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto7.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto8.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto8.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto9.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto9.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto10.jpeg" itemprop="contentUrl" data-size="1512x2016" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto10.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto11.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto11.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto12.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto12.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto13.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto13.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto14.jpeg" itemprop="contentUrl" data-size="1512x2016" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto14.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto15.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto15.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto16.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto16.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto17.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto17.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto18.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto18.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto20.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto20.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto21.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto21.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto22.jpeg" itemprop="contentUrl" data-size="1512x2016" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto22.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto23.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto23.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto24.jpeg" itemprop="contentUrl" data-size="1512x2016" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto24.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto25.jpeg" itemprop="contentUrl" data-size="1512x2016" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto25.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto26.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto26.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto27.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto27.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto28.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto28.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto29.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto29.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto30.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto30.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/ipFoto31.jpeg" itemprop="contentUrl" data-size="2016x1512" data-index="0">
+        <img src="assets/img/galerie/min/ipFoto31.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto1.jpeg" itemprop="contentUrl" data-size="3024x4032" data-index="0">
+        <img src="assets/img/galerie/min/foto1.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto2.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto2.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto3.jpeg" itemprop="contentUrl" data-size="3024x4032" data-index="0">
+        <img src="assets/img/galerie/min/foto3.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto4.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto4.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto5.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto5.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto6.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto6.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto7.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto7.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto8.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto8.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto9.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto9.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto10.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto10.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto11.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto11.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto12.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto12.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto13.jpeg" itemprop="contentUrl" data-size="3024x4032" data-index="0">
+        <img src="assets/img/galerie/min/foto13.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto14.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto14.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto15.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto15.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto16.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto16.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto17.jpeg" itemprop="contentUrl" data-size="3024x4032" data-index="0">
+        <img src="assets/img/galerie/min/foto17.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto18.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto18.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto19.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto19.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto20.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto20.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto21.jpeg" itemprop="contentUrl" data-size="3024x4032" data-index="0">
+        <img src="assets/img/galerie/min/foto21.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto22.jpeg" itemprop="contentUrl" data-size="3024x4032" data-index="0">
+        <img src="assets/img/galerie/min/foto22.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto24.jpeg" itemprop="contentUrl" data-size="4032x3024" data-index="0">
+        <img src="assets/img/galerie/min/foto24.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto27.jpeg" itemprop="contentUrl" data-size="3024x4032" data-index="0">
+        <img src="assets/img/galerie/min/foto27.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+  </div>
+</div>
+
+      </div>
+
+    <footer>
+  <div class="footerInner">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <div class="navigace">
+      <ul class="navigaceInner">
+        <li class="oddil oddilStranky">
+          <h4>Stránky</h4>
+          <ul class="prvni">
+            <li>
+              <a href="/">Domů</a>
+            </li>
+            <li>
+              <a href="/byty">Byty</a>
+            </li>
+            <li>
+              <a href="/fotogalerie">Fotogalerie</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/ceny">Ceny</a>
+            </li>
+            <li>
+              <a href="/kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </li>
+        <li class="oddil oddilKontakt">
+          <h4>Kontakt</h4>
+          <ul class="prvni">
+            <li>
+              <div class="emojiWrap emojiObalka">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <a href="mailto:simekostav@simekostav.cz">simekostav@simekostav.cz</a>
+            </li>
+            <li>
+              <div class="emojiWrap">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <a href="tel:+420602777214">+420 602 777 214</a>
+            </li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a href="http://facebook.com/bydleniSvojetice">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://instagram.com/bydleniSvojetice">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+            <!--
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            -->
+          </ul>
+        </li>
+        <li class="oddil oddilFinancovani">
+          <h4>Financování</h4>
+          <a href="/assets/pdf/letacek.pdf">
+            <img src="assets/img/banka.jpg" alt="Hypoteční banka">
+          </a>
+          <a class="detailyOFinancovani" href="/assets/pdf/letacek.pdf">Detaily o financování (letáček)</a>
+          <p class="jelinekJmeno">Jiří Jelínek</p>
+          <ul class="prvni">
+            <li>
+              <div class="emojiWrap emojiObalka">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <a href="mailto:jelinek-hypo@seznam.cz">jelinek-hypo@seznam.cz</a>
+            </li>
+            <li>
+              <div class="emojiWrap">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <a href="tel:+420602474022">+420 602 474 022</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="credits">
+    <p>web vytvořil <a href="https://palmmedia.co/">PalmMedia.co</a></p>
+  </div>
+  <script src="assets/js/photoswipe/photoswipe.min.js"></script>
+  <script src="assets/js/photoswipe/photoswipe-ui-default.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120238583-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120238583-1');
+  </script>
+</footer>
+
+
+  </body>
+</html>
