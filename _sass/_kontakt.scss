@@ -43,7 +43,7 @@
 
       a {
         font-size: 15px;
-        font-family: book;
+        font-family: medium;
         text-decoration: none;
       }
     }
@@ -54,19 +54,19 @@
           margin-top: 0;
 
           i {
-            color: $modra;
+            color: #D09683;
           }
         }
 
         &:nth-child(2) {
           i {
-            color: $cervena;
+            color: #D09683;
           }
         }
 
         &:nth-child(3) {
           i {
-            color: $zelena;
+            color: #D09683;
           }
         }
       }
@@ -89,7 +89,7 @@
           vertical-align: top;
 
           i {
-            color: $orandzova;
+            color: #D09683;
           }
         }
       }

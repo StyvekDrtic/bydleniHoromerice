@@ -61,10 +61,10 @@
       }
 
       &:nth-child(4) {
-        background: $zelena;
+        background: #773741;
 
         &:hover {
-          background-color: darken($zelena, 10);
+          background-color: darken(#773741, 10);
         }
       }
 
@@ -203,7 +203,7 @@
       padding-top: 10px;
       padding-bottom: 10px;
       border-radius: 8px;
-      background-color: #5399F7;
+      background-color: #42633e;
       font-size: 15px;
       font-family: medium;
       text-decoration: none;

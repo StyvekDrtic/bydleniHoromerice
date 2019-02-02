@@ -6,37 +6,37 @@ fonts
 
 @font-face {
     font-family: "book";
-    src: url("../fonts/GothamRounded-Book.otf");
+    src: url("../fonts/Avenir-Roman.ttf");
 }
 
 @font-face {
     font-family: "italic";
-    src: url("../fonts/GothamRounded-BookItalic.otf");
+    src: url("../fonts/Avenir-Oblique.ttf");
 }
 
 @font-face {
     font-family: "bold";
-    src: url("../fonts/GothamRounded-Bold.otf");
+    src: url("../fonts/Avenir-Heavy.ttf");
 }
 
 @font-face {
     font-family: "medium";
-    src: url("../fonts/GothamRounded-Medium.otf");
+    src: url("../fonts/Avenir-Medium.ttf");
 }
 
 @font-face {
     font-family: "mediumItalic";
-    src: url("../fonts/GothamRounded-MediumItalic.otf");
+    src: url("../fonts/Avenir-MediumOblique.ttf");
 }
 
 @font-face {
     font-family: "light";
-    src: url("../fonts/GothamRounded-Light.otf");
+    src: url("../fonts/Avenir-Light.ttf");
 }
 
 @font-face {
-    font-family: "proxima";
-    src: url("../fonts/proxima.otf");
+    font-family: "black";
+    src: url("../fonts/Avenir-Black.ttf");
 }
 
 /*****************************************
@@ -47,10 +47,10 @@ colors
 
 $white: #fff;
 $tmava: #484848;
-$cervena: #FF4447;
+$cervena: #D09683;
 $svetleModra: #31DBFE;
-$modra: #5399F7;
-$zelena: #88E960;
+$modra: #42633e;
+$zelena: #42633e;
 $orandzova: #F39C12;
 
 /*****************************************
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, p, span, a, li {
 }
 
 .tlacitko:hover {
-  background: desaturate(darken($cervena, 10%), 30%);
+  background: darken($cervena, 10%);
 }
 
 .vrstva {

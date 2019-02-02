@@ -2572,25 +2572,25 @@ fonts
 *****************************************/
 @font-face {
   font-family: "book";
-  src: url("../fonts/GothamRounded-Book.otf"); }
+  src: url("../fonts/Avenir-Roman.ttf"); }
 @font-face {
   font-family: "italic";
-  src: url("../fonts/GothamRounded-BookItalic.otf"); }
+  src: url("../fonts/Avenir-Oblique.ttf"); }
 @font-face {
   font-family: "bold";
-  src: url("../fonts/GothamRounded-Bold.otf"); }
+  src: url("../fonts/Avenir-Heavy.ttf"); }
 @font-face {
   font-family: "medium";
-  src: url("../fonts/GothamRounded-Medium.otf"); }
+  src: url("../fonts/Avenir-Medium.ttf"); }
 @font-face {
   font-family: "mediumItalic";
-  src: url("../fonts/GothamRounded-MediumItalic.otf"); }
+  src: url("../fonts/Avenir-MediumOblique.ttf"); }
 @font-face {
   font-family: "light";
-  src: url("../fonts/GothamRounded-Light.otf"); }
+  src: url("../fonts/Avenir-Light.ttf"); }
 @font-face {
-  font-family: "proxima";
-  src: url("../fonts/proxima.otf"); }
+  font-family: "black";
+  src: url("../fonts/Avenir-Black.ttf"); }
 /*****************************************
 
 colors
@@ -2612,12 +2612,12 @@ h1, h2, h3, h4, h5, p, span, a, li {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
-  background: #FF4447;
+  background: #D09683;
   padding: 14px 30px;
   padding-bottom: 11px; }
 
 .tlacitko:hover {
-  background: #db3537; }
+  background: #c2775e; }
 
 .vrstva {
   background: #fff;
@@ -2629,7 +2629,7 @@ h1, h2, h3, h4, h5, p, span, a, li {
   outline: 0 !important; }
 
 .modra {
-  color: #5399F7; }
+  color: #42633e; }
 
 div:active {
   outline: none !important; }
@@ -2642,20 +2642,17 @@ a:active {
 
 .horniHeader {
   height: 90px;
-  background: -moz-linear-gradient(65deg, #72a9f7 0%, #4684f0 100%, #4684f0 100%);
-  /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #72a9f7), color-stop(100%, #4684f0), color-stop(100%, #4684f0));
-  /* safari4+,chrome */
-  background: -webkit-linear-gradient(65deg, #72a9f7 0%, #4684f0 100%, #4684f0 100%);
-  /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(65deg, #72a9f7 0%, #4684f0 100%, #4684f0 100%);
-  /* opera 11.10+ */
-  background: -ms-linear-gradient(65deg, #72a9f7 0%, #4684f0 100%, #4684f0 100%);
-  /* ie10+ */
-  background: linear-gradient(25deg, #72a9f7 0%, #4684f0 100%, #4684f0 100%);
-  /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4684F0', endColorstr='#72A9F7',GradientType=0 );
-  /* ie6-9 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#363237+0,73605b+100 */
+  background: #363237;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #363237 0%, #73605b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #363237 0%, #73605b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #363237 0%, #73605b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363237', endColorstr='#73605b',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
   z-index: 10;
   position: relative; }
   .horniHeader .logo {
@@ -2774,13 +2771,13 @@ a:active {
         color: #484848;
         font-size: 17px;
         line-height: 80px;
-        font-family: medium;
+        font-family: bold;
         -ms-transition: .2s;
         -moz-transition: .2s;
         -webkit-transition: .2s;
         transition: .2s; }
         .dolniHeader ul li a:hover {
-          color: #FF4447; }
+          color: #D09683; }
         @media screen and (max-width: 850px) {
           .dolniHeader ul li a {
             line-height: 51px;
@@ -2789,7 +2786,7 @@ a:active {
         .dolniHeader ul li {
           padding: 0 20px; } }
     .dolniHeader ul .active {
-      border-bottom: 4px solid #FF4447; }
+      border-bottom: 4px solid #D09683; }
     @media screen and (max-width: 850px) {
       .dolniHeader ul {
         margin-left: 0; } }
@@ -2842,7 +2839,7 @@ footer {
   footer h4:after {
     content: "";
     width: 30%;
-    border-bottom: 2px solid #FF4447;
+    border-bottom: 2px solid #D09683;
     position: absolute;
     bottom: -2px;
     left: 0; }
@@ -2972,7 +2969,7 @@ footer {
   background-size: cover; }
   .jumbotron h1 {
     color: #fff;
-    font-family: proxima;
+    font-family: black;
     -moz-text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
     -webkit-text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
@@ -3074,7 +3071,7 @@ footer {
           .highlights ul li:last-child {
             margin-bottom: 0px; } }
   .highlights .tlacitko {
-    background: #5399F7;
+    background: #42633e;
     margin: 0 auto;
     text-align: center;
     width: 105px;
@@ -3117,17 +3114,17 @@ footer {
         #uvod ul li:nth-child(1):hover {
           background-color: #c87f0a; }
       #uvod ul li:nth-child(2) {
-        background: #FF4447; }
+        background: #D09683; }
         #uvod ul li:nth-child(2):hover {
-          background-color: #ff1115; }
+          background-color: #c2775e; }
       #uvod ul li:nth-child(3) {
-        background: #5399F7; }
+        background: #42633e; }
         #uvod ul li:nth-child(3):hover {
-          background-color: #227cf5; }
+          background-color: #2d442a; }
       #uvod ul li:nth-child(4) {
-        background: #88E960; }
+        background: #773741; }
         #uvod ul li:nth-child(4):hover {
-          background-color: #66e333; }
+          background-color: #54272e; }
       #uvod ul li:nth-child(5) {
         background: #484848; }
         #uvod ul li:nth-child(5):hover {
@@ -3225,7 +3222,7 @@ footer {
       padding-top: 10px;
       padding-bottom: 10px;
       border-radius: 8px;
-      background-color: #5399F7;
+      background-color: #42633e;
       font-size: 15px;
       font-family: medium;
       text-decoration: none;
@@ -3233,7 +3230,7 @@ footer {
       display: inline-block;
       float: right; }
       #pudorysy .pudorysy .detailyBytu:hover {
-        background-color: #227cf5; }
+        background-color: #2d442a; }
       @media screen and (max-width: 380px) {
         #pudorysy .pudorysy .detailyBytu {
           display: inline-block;
@@ -3317,7 +3314,7 @@ footer {
     .obrazky figure img {
       height: 200px;
       width: 266px;
-      border-radius: 14px;
+      border-radius: 5px;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
       -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
       -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2); }
@@ -3571,16 +3568,16 @@ footer {
           width: 100%; }
       .kontakty ul li a {
         font-size: 15px;
-        font-family: book;
+        font-family: medium;
         text-decoration: none; }
     .kontakty ul:nth-child(1) li:nth-child(1) {
       margin-top: 0; }
       .kontakty ul:nth-child(1) li:nth-child(1) i {
-        color: #5399F7; }
+        color: #D09683; }
     .kontakty ul:nth-child(1) li:nth-child(2) i {
-      color: #FF4447; }
+      color: #D09683; }
     .kontakty ul:nth-child(1) li:nth-child(3) i {
-      color: #88E960; }
+      color: #D09683; }
     .kontakty ul:nth-child(2) li {
       margin-top: 0; }
       .kontakty ul:nth-child(2) li p {
@@ -3593,7 +3590,7 @@ footer {
         display: inline-block;
         vertical-align: top; }
         .kontakty ul:nth-child(2) li div i {
-          color: #F39C12; }
+          color: #D09683; }
     .kontakty ul:nth-child(3) {
       margin-right: 0; }
       .kontakty ul:nth-child(3) li a {

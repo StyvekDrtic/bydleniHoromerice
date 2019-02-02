@@ -1,12 +1,13 @@
 .horniHeader {
   height: 90px;
-  background: -moz-linear-gradient(65deg, rgba(114,169,247,1) 0%, rgba(70,132,240,1) 100%, rgba(70,132,240,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(114,169,247,1)), color-stop(100%, rgba(70,132,240,1)), color-stop(100%, rgba(70,132,240,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(65deg, rgba(114,169,247,1) 0%, rgba(70,132,240,1) 100%, rgba(70,132,240,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(65deg, rgba(114,169,247,1) 0%, rgba(70,132,240,1) 100%, rgba(70,132,240,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(65deg, rgba(114,169,247,1) 0%, rgba(70,132,240,1) 100%, rgba(70,132,240,1) 100%); /* ie10+ */
-  background: linear-gradient(25deg, rgba(114,169,247,1) 0%, rgba(70,132,240,1) 100%, rgba(70,132,240,1) 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4684F0', endColorstr='#72A9F7',GradientType=0 ); /* ie6-9 */
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#363237+0,73605b+100 */
+  background: #363237; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #363237 0%, #73605b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #363237 0%,#73605b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #363237 0%,#73605b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363237', endColorstr='#73605b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
   z-index: 10;
   position: relative;
 
@@ -165,7 +166,7 @@
         color: $tmava;
         font-size: 17px;
         line-height: 80px;
-        font-family: medium;
+        font-family: bold;
         -ms-transition:.2s;
         -moz-transition:.2s;
         -webkit-transition:.2s;
