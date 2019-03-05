@@ -2973,7 +2973,7 @@ footer {
     -moz-text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
     -webkit-text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     padding-top: 170px;
     max-width: calc(100% - 40px);
@@ -2982,17 +2982,19 @@ footer {
       .jumbotron h1 {
         font-size: 45px;
         padding-top: 110px; } }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 550px) {
       .jumbotron h1 {
         font-size: 40px;
         padding-top: 100px; } }
-    @media screen and (max-width: 410px) {
+    @media screen and (max-width: 460px) {
       .jumbotron h1 {
         font-size: 35px; } }
+    @media screen and (max-width: 410px) {
+      .jumbotron h1 {
+        font-size: 30px; } }
     @media screen and (max-width: 330px) {
       .jumbotron h1 {
-        font-size: 30px;
-        padding-top: 60px; } }
+        padding-top: 40px; } }
   .jumbotron .tlacitko {
     margin: 0 auto;
     text-align: center;
@@ -3053,11 +3055,11 @@ footer {
         max-width: 66px;
         max-height: 61px; }
       .highlights ul li .bus {
-        margin-top: 43px; }
+        margin-top: 73px; }
       .highlights ul li .peniz {
-        margin-top: 30px; }
+        margin-top: 60px; }
       .highlights ul li .strom {
-        margin-top: 69px; }
+        margin-top: 26px; }
       @media screen and (max-width: 909px) {
         .highlights ul li {
           margin-bottom: 50px; }
@@ -3415,8 +3417,6 @@ footer {
         .ceny .normalniTabulka tbody tr td:nth-of-type(3):after {
           content: " m\00B2"; }
         .ceny .normalniTabulka tbody tr td:nth-of-type(4):after {
-          content: " m\00B2"; }
-        .ceny .normalniTabulka tbody tr td:nth-of-type(5):after {
           content: " mil."; }
         @media screen and (max-width: 870px) {
           .ceny .normalniTabulka tbody tr td {
@@ -3430,17 +3430,11 @@ footer {
             .ceny .normalniTabulka tbody tr td:nth-child(even) {
               background: #eee; }
             .ceny .normalniTabulka tbody tr td:nth-of-type(1):before {
-              content: "typ jednotky"; }
+              content: "celková velikos pozemku"; }
             .ceny .normalniTabulka tbody tr td:nth-of-type(2):before {
-              content: "podlaží"; }
+              content: "celková cena"; }
             .ceny .normalniTabulka tbody tr td:nth-of-type(3):before {
-              content: "celková plocha"; }
-            .ceny .normalniTabulka tbody tr td:nth-of-type(4):before {
-              content: "terasa"; }
-            .ceny .normalniTabulka tbody tr td:nth-of-type(5):before {
-              content: "cena"; }
-            .ceny .normalniTabulka tbody tr td:nth-of-type(6):before {
-              content: "stav"; }
+              content: "stav prodeje"; }
             .ceny .normalniTabulka tbody tr td:before {
               content: "ahoj";
               position: absolute;

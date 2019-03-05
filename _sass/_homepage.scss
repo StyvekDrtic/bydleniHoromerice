@@ -12,7 +12,7 @@
     -moz-text-shadow: 0 0 5px rgba(0,0,0,0.13);
     -webkit-text-shadow: 0 0 5px rgba(0,0,0,0.13);
     text-shadow: 0 0 5px rgba(0,0,0,0.13);
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     padding-top: 170px;
     max-width: calc(100% - 40px);
@@ -23,18 +23,21 @@
       padding-top: 110px;
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 550px) {
       font-size: 40px;
       padding-top: 100px;
     }
 
-    @media screen and (max-width: 410px) {
+    @media screen and (max-width: 460px) {
       font-size: 35px;
     }
 
-    @media screen and (max-width: 330px) {
+    @media screen and (max-width: 410px) {
       font-size: 30px;
-      padding-top: 60px;
+    }
+
+    @media screen and (max-width: 330px) {
+      padding-top: 40px;
     }
   }
 
@@ -118,15 +121,15 @@
       }
 
       .bus {
-        margin-top: 43px;
+        margin-top: 73px;
       }
 
       .peniz {
-        margin-top: 30px;
+        margin-top: 60px;
       }
 
       .strom {
-        margin-top: 69px;
+        margin-top: 26px;
       }
 
       @media screen and (max-width: 909px) {
