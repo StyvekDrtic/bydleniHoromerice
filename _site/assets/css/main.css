@@ -3414,9 +3414,9 @@ footer {
       .ceny .normalniTabulka tbody tr td {
         text-align: center;
         font-size: 14px; }
-        .ceny .normalniTabulka tbody tr td:nth-of-type(3):after {
+        .ceny .normalniTabulka tbody tr td:nth-of-type(1):after {
           content: " m\00B2"; }
-        .ceny .normalniTabulka tbody tr td:nth-of-type(4):after {
+        .ceny .normalniTabulka tbody tr td:nth-of-type(6):after {
           content: " mil."; }
         @media screen and (max-width: 870px) {
           .ceny .normalniTabulka tbody tr td {
@@ -3430,7 +3430,7 @@ footer {
             .ceny .normalniTabulka tbody tr td:nth-child(even) {
               background: #eee; }
             .ceny .normalniTabulka tbody tr td:nth-of-type(1):before {
-              content: "celková velikos pozemku"; }
+              content: "celková velikost pozemku"; }
             .ceny .normalniTabulka tbody tr td:nth-of-type(2):before {
               content: "celková cena"; }
             .ceny .normalniTabulka tbody tr td:nth-of-type(3):before {
