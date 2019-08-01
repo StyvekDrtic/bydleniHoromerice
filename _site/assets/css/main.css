@@ -2963,7 +2963,7 @@ footer {
 .jumbotron {
   height: 580px;
   width: 100%;
-  background: url("../img/jumbotron.jpg");
+  background: url("../img/jumbotron.jpg?a=1");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -3525,6 +3525,28 @@ footer {
       background: #eee; }
       .parkovaniTabulka tbody tr:nth-child(even):nth-child(even) {
         background: #fff; }
+
+.planekLokality {
+  background: #F8F8F8;
+  padding-bottom: 50px; }
+  .planekLokality h2 {
+    width: calc(100% - 50px);
+    max-width: 1100px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 30px; }
+  .planekLokality img {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    width: calc(100% - 50px);
+    font-family: book;
+    font-weight: normal;
+    background: rgba(122, 56, 32, 0);
+    border-radius: 5px !important; }
 
 .kontaktNadpis {
   font-family: medium;
