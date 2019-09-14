@@ -2845,7 +2845,7 @@ footer {
     left: 0; }
 
 .navigace .navigaceInner {
-  min-height: 285px; }
+  min-height: 150px; }
 .navigace ul {
   padding: 0;
   text-align: center;
