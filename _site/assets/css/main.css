@@ -3080,6 +3080,19 @@ footer {
     display: block;
     margin-top: 40px; }
 
+.bannerSleva {
+  background: #ffeb3b;
+  padding: 10px 0; }
+  .bannerSleva p {
+    color: #2b2b2b;
+    text-align: center;
+    margin: 0;
+    font-family: medium;
+    width: calc(100% - 30px);
+    margin: 0 auto; }
+    .bannerSleva p strong {
+      font-family: black; }
+
 #uvod {
   padding-bottom: 50px; }
   #uvod h1 {
