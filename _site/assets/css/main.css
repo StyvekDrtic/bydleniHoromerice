@@ -3256,6 +3256,8 @@ footer {
     #pudorysy .pudorysy ul {
       padding: 0;
       text-align: center; }
+      #pudorysy .pudorysy ul .pudorysyImg {
+        max-width: 600px; }
       #pudorysy .pudorysy ul li {
         list-style: none;
         display: block;
